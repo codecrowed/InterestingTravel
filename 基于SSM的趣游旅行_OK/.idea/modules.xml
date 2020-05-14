@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/backstagemanagement/backstagemanagement.iml" filepath="$PROJECT_DIR$/backstagemanagement/backstagemanagement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InterestingTravel/testtrip.iml" filepath="$PROJECT_DIR$/InterestingTravel/testtrip.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/基于SSM的趣游旅行_OK.iml" filepath="$PROJECT_DIR$/.idea/基于SSM的趣游旅行_OK.iml" />
+    </modules>
+  </component>
+</project>

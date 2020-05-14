@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1d2abda4-40c4-4fd8-bf9e-09795d4a7e8e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/InterestingTravel/src/main/java/com/gemptc/controller/SystemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InterestingTravel/src/main/java/com/gemptc/entity/Uploader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InterestingTravel/src/main/java/com/gemptc/utils/PageUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InterestingTravel/src/main/resources/templates/user/userNotes1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/config/RbacService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/config/SpringMVCConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/config/SpringSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/controller/AdminUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/controller/DetailsCommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/controller/LogAop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/controller/PermissionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/controller/TravelOrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/controller/TravelProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/controller/UserConrtoller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/dao/AdminUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/dao/DetailsCommentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/dao/IPermissionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/dao/IRoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/dao/ISysLogDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/dao/TravelCategoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/dao/TravelDetailsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/dao/TravelProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/entity/AdminUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/entity/DetailsComment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/entity/KeyCity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/entity/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/entity/SysLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/entity/TravelCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/entity/TravelDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/entity/TravelProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/entity/Uploader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/service/AdminUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/service/DetailsCommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/service/IPermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/service/IRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/service/ISysLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/service/TravelCategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/service/TravelDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/service/TravelProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/service/impl/AdminUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/service/impl/PermissionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/service/impl/SysLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/uitls/BCryptPasswordEncoderUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/uitls/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/uitls/FileUploadTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/uitls/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/css/font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/css/theme1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/css/theme2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/css/theme3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/css/theme4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/css/theme5.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/css/xadmin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/fonts/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/fonts/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/fonts/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/fonts/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/imagess/aiwrap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/imagess/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/jquery-1.12.4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/dialogs/emotion/emotion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/dialogs/emotion/emotion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/dialogs/emotion/images/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/dialogs/emotion/images/bface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/dialogs/emotion/images/cface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/dialogs/emotion/images/fface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/dialogs/emotion/images/jxface2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/dialogs/emotion/images/neweditor-tab-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/dialogs/emotion/images/tface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/dialogs/emotion/images/wface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/dialogs/emotion/images/yface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/dialogs/formula/formula.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/dialogs/formula/formula.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/dialogs/formula/formula.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/dialogs/formula/images/formula.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/dialogs/image/image.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/dialogs/image/image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/dialogs/image/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/dialogs/image/images/upload1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/dialogs/image/images/upload2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/dialogs/link/link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/dialogs/map/map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/dialogs/map/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/dialogs/video/images/center_focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/dialogs/video/images/left_focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/dialogs/video/images/none_focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/dialogs/video/images/right_focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/dialogs/video/video.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/dialogs/video/video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/lang/en/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/lang/en/images/addimage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/lang/en/images/alldeletebtnhoverskin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/lang/en/images/alldeletebtnupskin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/lang/en/images/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/lang/en/images/button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/lang/en/images/copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/lang/en/images/deletedisable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/lang/en/images/deleteenable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/lang/en/images/imglabel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/lang/en/images/listbackground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/lang/en/images/localimage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/lang/en/images/music.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/lang/en/images/rotateleftdisable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/lang/en/images/rotateleftenable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/lang/en/images/rotaterightdisable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/lang/en/images/rotaterightenable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/lang/en/images/upload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/lang/zh-cn/images/copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/lang/zh-cn/images/imglabel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/lang/zh-cn/images/localimage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/lang/zh-cn/images/music.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/lang/zh-cn/images/upload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/lang/zh-cn/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/themes/default/css/umeditor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/themes/default/css/umeditor.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/themes/default/images/caret.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/themes/default/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/themes/default/images/icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/themes/default/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/themes/default/images/ok.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/themes/default/images/pop-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/themes/default/images/spacer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/themes/default/images/videologo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/third-party/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/third-party/mathquill/font/Symbola.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/third-party/mathquill/font/Symbola.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/third-party/mathquill/font/Symbola.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/third-party/mathquill/font/Symbola.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/third-party/mathquill/font/Symbola.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/third-party/mathquill/font/stixgeneral-bundle/STIXFontLicense2010.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneral-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneral-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneral-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneral-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralbol-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralbol-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralbol-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralbol-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralbolita-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralbolita-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralbolita-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralbolita-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralitalic-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralitalic-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralitalic-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralitalic-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/third-party/mathquill/mathquill.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/third-party/mathquill/mathquill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/third-party/mathquill/mathquill.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/umeditor.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/umeditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/umeditor/umeditor.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/xadmin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/js/xcity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/static/lib/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/templates/adminusermanage/admin-add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/templates/adminusermanage/admin-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/templates/adminusermanage/admin-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/templates/detailscomment/detailscomment-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/templates/login/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/templates/login/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/templates/login/welcome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/templates/travelorder/order-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/templates/travelproductmanage/cate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/templates/travelproductmanage/traveldetails-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/templates/travelproductmanage/traveldetails-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/templates/travelproductmanage/travelproduct-add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/templates/travelproductmanage/travelproduct-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/templates/travelproductmanage/travelproduct-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/templates/usermanage/member-add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/templates/usermanage/member-del.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/templates/usermanage/member-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/templates/usermanage/member-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/templates/usermanage/member-list1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/templates/usermanage/membermessage-edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/README.en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/InterestingTravel/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/java/com/gemptc/TesttripApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterestingTravel/src/main/java/com/gemptc/TesttripApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/java/com/gemptc/config/WebSocketConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterestingTravel/src/main/java/com/gemptc/config/WebSocketConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/java/com/gemptc/controller/TourController.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterestingTravel/src/main/java/com/gemptc/controller/TourController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/java/com/gemptc/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterestingTravel/src/main/java/com/gemptc/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/java/com/gemptc/controller/VerifyLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterestingTravel/src/main/java/com/gemptc/controller/VerifyLoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/java/com/gemptc/controller/indexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterestingTravel/src/main/java/com/gemptc/controller/indexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/java/com/gemptc/controller/orderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterestingTravel/src/main/java/com/gemptc/controller/orderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/java/com/gemptc/dao/OrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterestingTravel/src/main/java/com/gemptc/dao/OrderDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/java/com/gemptc/dao/TravelProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterestingTravel/src/main/java/com/gemptc/dao/TravelProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/java/com/gemptc/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterestingTravel/src/main/java/com/gemptc/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/java/com/gemptc/entity/DetailsComment.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterestingTravel/src/main/java/com/gemptc/entity/DetailsComment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/java/com/gemptc/entity/Query.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterestingTravel/src/main/java/com/gemptc/entity/Query.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/java/com/gemptc/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterestingTravel/src/main/java/com/gemptc/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/java/com/gemptc/service/TravelProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterestingTravel/src/main/java/com/gemptc/service/TravelProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/java/com/gemptc/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterestingTravel/src/main/java/com/gemptc/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/java/com/gemptc/utils/AliPayUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/InterestingTravel/src/main/java/com/gemptc/utils/AliPayUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/InterestingTravel/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/com/gemptc/dao/TravelProductDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/InterestingTravel/src/main/resources/com/gemptc/dao/TravelProductDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/css/layui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/css/layui.mobile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/css/modules/code.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/css/modules/laydate/default/laydate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/css/modules/layer/default/icon-ext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/css/modules/layer/default/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/css/modules/layer/default/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/css/modules/layer/default/loading-0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/css/modules/layer/default/loading-1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/css/modules/layer/default/loading-2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/font/iconfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/font/iconfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/font/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/font/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/font/iconfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/10.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/12.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/13.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/14.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/15.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/16.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/17.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/18.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/19.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/20.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/21.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/22.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/23.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/24.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/25.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/26.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/27.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/28.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/29.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/30.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/31.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/33.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/34.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/35.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/36.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/37.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/38.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/39.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/40.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/41.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/42.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/43.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/44.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/45.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/46.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/47.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/48.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/49.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/50.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/51.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/52.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/53.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/54.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/55.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/56.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/57.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/58.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/59.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/60.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/61.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/62.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/63.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/64.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/65.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/66.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/67.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/68.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/69.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/7.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/70.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/71.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/8.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/images/face/9.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/lay/modules/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/lay/modules/code.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/lay/modules/colorpicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/lay/modules/element.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/lay/modules/flow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/lay/modules/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/lay/modules/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/lay/modules/laydate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/lay/modules/layedit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/lay/modules/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/lay/modules/laypage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/lay/modules/laytpl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/lay/modules/mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/lay/modules/rate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/lay/modules/slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/lay/modules/table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/lay/modules/transfer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/lay/modules/tree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/lay/modules/upload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/lay/modules/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/layui.all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/static/layui/layui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/templates/cart/order3.html" beforeDir="false" afterPath="$PROJECT_DIR$/InterestingTravel/src/main/resources/templates/cart/order3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/templates/cart/payZhiFuBao.html" beforeDir="false" afterPath="$PROJECT_DIR$/InterestingTravel/src/main/resources/templates/cart/payZhiFuBao.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/templates/tour/free-tour-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/InterestingTravel/src/main/resources/templates/tour/free-tour-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/templates/tour/group-tour-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/InterestingTravel/src/main/resources/templates/tour/group-tour-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/templates/tour/index1.html" beforeDir="false" afterPath="$PROJECT_DIR$/InterestingTravel/src/main/resources/templates/tour/index1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/templates/tour/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/InterestingTravel/src/main/resources/templates/tour/index2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/templates/tour/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/InterestingTravel/src/main/resources/templates/tour/result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/templates/user/loginUI.html" beforeDir="false" afterPath="$PROJECT_DIR$/InterestingTravel/src/main/resources/templates/user/loginUI.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/templates/user/registerUI.html" beforeDir="false" afterPath="$PROJECT_DIR$/InterestingTravel/src/main/resources/templates/user/registerUI.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/templates/user/userChangePassword.html" beforeDir="false" afterPath="$PROJECT_DIR$/InterestingTravel/src/main/resources/templates/user/userChangePassword.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/templates/user/userComment.html" beforeDir="false" afterPath="$PROJECT_DIR$/InterestingTravel/src/main/resources/templates/user/userComment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/templates/user/userHead.html" beforeDir="false" afterPath="$PROJECT_DIR$/InterestingTravel/src/main/resources/templates/user/userHead.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/templates/user/userNotes.html" beforeDir="false" afterPath="$PROJECT_DIR$/InterestingTravel/src/main/resources/templates/user/userNotes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterestingTravel/src/main/resources/templates/user/userOrder.html" beforeDir="false" afterPath="$PROJECT_DIR$/InterestingTravel/src/main/resources/templates/user/userOrder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstagemanagement/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backstagemanagement/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/backstagemanagement/BackstagemanagementApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/BackstagemanagementApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstagemanagement/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backstagemanagement/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="interestingtravel@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="interestingtravel@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="interestingtravel@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="interestingtravel: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="spring-beans.schema" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/InterestingTravel" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/Program Files/Java/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="C:\Program Files\Java\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1a2DSkIWFeAvurMCXu6nzpcm6Zc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/backstagemanagement/pom.xml" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\毕设项目\基于SSM的趣游旅行_OK\InterestingTravel\src" />
+    </key>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="Found 184 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BackstagemanagementApplication">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gemptc.Test" />
+      <module name="testtrip" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gemptc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BackstagemanagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="backstagemanagement" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gemptc.BackstagemanagementApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesttripApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="testtrip" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gemptc.TesttripApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d2abda4-40c4-4fd8-bf9e-09795d4a7e8e" name="Default Changelist" comment="" />
+      <created>1585924796423</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585924796423</updated>
+      <workItem from="1585924798172" duration="3305000" />
+      <workItem from="1586782893575" duration="515000" />
+      <workItem from="1587307191149" duration="3357000" />
+      <workItem from="1587799104510" duration="9740000" />
+      <workItem from="1589003316508" duration="2381000" />
+      <workItem from="1589291334722" duration="8180000" />
+      <workItem from="1589467618582" duration="1029000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="177" key="#Project_Structure" timestamp="1587808153739">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="177" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1587808153739" />
+    <state x="605" y="124" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587807976271">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="605" y="124" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587807976271" />
+    <state x="681" y="185" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1589003480676">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="681" y="185" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589003480676" />
+    <state x="806" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1587307562796">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="806" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587307562796" />
+    <state x="699" y="347" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1589299586095">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="699" y="347" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589299586095" />
+    <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1587807790736">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="254" height="195" key="DatabaseViewActions_Filter/0.0.1920.1040@0.0.1920.1040" timestamp="1587807790736" />
+    <state width="422" height="466" key="DebuggerActiveHint" timestamp="1587803501946">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="422" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1587803501946" />
+    <state x="740" y="274" width="440" height="487" key="FileChooserDialogImpl" timestamp="1589295024766">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" width="440" height="487" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589295024766" />
+    <state width="1420" height="277" key="GridCell.Tab.0.bottom" timestamp="1589468663408">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1420" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589468663408" />
+    <state width="1420" height="277" key="GridCell.Tab.0.center" timestamp="1589468663408">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1420" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589468663408" />
+    <state width="1420" height="277" key="GridCell.Tab.0.left" timestamp="1589468663408">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1420" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589468663408" />
+    <state width="1420" height="277" key="GridCell.Tab.0.right" timestamp="1589468663408">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1420" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589468663408" />
+    <state width="1876" height="352" key="GridCell.Tab.1.bottom" timestamp="1589300264525">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589300264525" />
+    <state width="1876" height="352" key="GridCell.Tab.1.center" timestamp="1589300264525">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="352" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589300264525" />
+    <state width="1876" height="352" key="GridCell.Tab.1.left" timestamp="1589300264525">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="352" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589300264525" />
+    <state width="1876" height="352" key="GridCell.Tab.1.right" timestamp="1589300264525">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="352" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589300264525" />
+    <state width="1876" height="352" key="GridCell.Tab.2.bottom" timestamp="1589300264525">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="352" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589300264525" />
+    <state width="1876" height="352" key="GridCell.Tab.2.center" timestamp="1589300264525">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="352" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589300264525" />
+    <state width="1876" height="352" key="GridCell.Tab.2.left" timestamp="1589300264525">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="352" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589300264525" />
+    <state width="1876" height="352" key="GridCell.Tab.2.right" timestamp="1589300264525">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="352" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589300264525" />
+    <state x="461" y="151" key="SettingsEditor" timestamp="1589295037725">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589295037725" />
+    <state x="795" y="207" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1587807813322">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="795" y="207" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587807813322" />
+    <state x="640" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1589467617465">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589467617465" />
+    <state x="690" y="283" key="extract.method.dialog" timestamp="1587799615493">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="283" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587799615493" />
+    <state x="621" y="279" width="647" height="538" key="find.popup" timestamp="1589467924882">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="621" y="279" width="647" height="538" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589467924882" />
+    <state x="432" y="193" key="new project wizard" timestamp="1589295051294">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="432" y="193" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1589295051294" />
+    <state x="616" y="162" width="672" height="676" key="search.everywhere.popup" timestamp="1589298984267">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="162" width="672" height="676" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589298984267" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/service/TravelDetailsService.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/controller/TravelProductController.java</url>
+          <line>187</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/controller/TravelProductController.java</url>
+          <line>188</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/controller/TravelProductController.java</url>
+          <line>204</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/backstagemanagement/src/main/java/com/gemptc/controller/TravelProductController.java</url>
+          <line>205</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
